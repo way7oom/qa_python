@@ -82,4 +82,3 @@ class TestBooksCollector:
     def test_get_list_of_favorites_books(self, collector_with_favorites):        
         assert 'Аннабель' in collector_with_favorites.favorites
         
-        
